@@ -29,3 +29,5 @@ export default function graphql(strings, ...args) {
     return transform(ast, state)
   }
 }
+
+graphql.GraphQL = GraphQL
